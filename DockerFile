@@ -1,5 +1,5 @@
 # Use a imagem base com o Maven
-FROM maven:3.8.4-openjdk-17-slim AS build
+FROM maven:3.8.3-openjdk-17 AS build
 
 # Define o diretório de trabalho dentro do contêiner
 WORKDIR /app
